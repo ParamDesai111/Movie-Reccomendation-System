@@ -33,6 +33,7 @@ app = Flask(__name__)
 
 # Path to the CSV file
 csv_file_path = 'cleaned_movies.csv'
+csv_file_path2 = 'cleaned_movies.csv'
 
 @app.route('/')
 def index():
